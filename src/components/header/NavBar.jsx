@@ -12,7 +12,7 @@ import Logo from '../../assets/favicon.ico'; // Adjust the path as necessary
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faMagnifyingGlass, faUser, faBagShopping } from '@fortawesome/free-solid-svg-icons';
 import 'bootstrap/dist/css/bootstrap.min.css';
-import './Navbar.css';
+import '../header/NavBar.css';
 
 const NavBar = () => {
   const navigate = useNavigate();

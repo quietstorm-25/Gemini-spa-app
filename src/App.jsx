@@ -5,8 +5,8 @@ import About from './pages/about/About';
 import Blog from './pages/blog/Blog';
 import Shop from './pages/shop/Shop';
 import Others from './pages/others/Others';
-import NavBar from './components/header/Navbar';
 import Footer from './components/footer/Footer';
+import NavBar from './components/header/NavBar';
 
 function App() {
   return (
