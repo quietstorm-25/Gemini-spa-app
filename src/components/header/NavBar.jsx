@@ -47,7 +47,7 @@ const NavBar = () => {
                 <Nav.Link onClick={() => navigate("/")}>Home</Nav.Link>
                 <Nav.Link onClick={() => navigate("/about")}>About</Nav.Link>
 
-                <NavDropdown title="Shop" id="shop-dropdown" className="nav-dropdown dropdown-hover">
+                <NavDropdown title="Shop" id="shop-dropdown" className="nav-dropdown ">
                   <NavDropdown.Item>Shop All Skincare</NavDropdown.Item>
                   <NavDropdown.Item>Best Sellers</NavDropdown.Item>
                   <NavDropdown.Item>Mini Bliss</NavDropdown.Item>
@@ -63,7 +63,7 @@ const NavBar = () => {
 
                 <Nav.Link onClick={() => navigate("/blog")}>Blog</Nav.Link>
 
-                <NavDropdown title="Others" id="others-dropdown" className="nav-dropdown dropdown-hover">
+                <NavDropdown title="Others" id="others-dropdown" className="nav-dropdown">
                   <NavDropdown.Item onClick={() => navigate("/faq")}>FAQ</NavDropdown.Item>
                   <NavDropdown.Item onClick={() => navigate("/wishlist")}>Wishlist</NavDropdown.Item>
                   <NavDropdown.Item onClick={() => navigate("/contact")}>Contact</NavDropdown.Item>
